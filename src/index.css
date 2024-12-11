@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::placeholder {
+  color: #9ca3af; /* Change this to your desired color */
+}
+
+
+
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+
+/* Scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 16px;
+    scroll-behavior: smooth;
+  } 
+  
+  /* Track (background of the scrollbar) */
+  ::-webkit-scrollbar {
+    background: rgb(244, 244, 244);
+  }
+  
+  /* Handle (scrollbar thumb) */
+  ::-webkit-scrollbar-thumb { 
+    background: linear-gradient(to bottom,  #FF9933 33%, white 33%, white 66%, #138808 66%);
+    /* border: 2px solid #00008B; Represent Ashoka Chakra with a dark blue border */
+    border-radius: 10px; 
+  }                                                 
+  
+  /* Optional: Hover effect for the scrollbar thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #FF9933 33%, white 33%, white 66%, #138808 66%);
+    /* border-color: #000080; */
+  }
+
+
+  
+body {
+  overflow-x: hidden;
+} 
+
+
+/* .banner .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+}*/    
+
+/* .banner .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* Banner container */
+
+.banner {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+} 
+
+/* Swiper slide images */
+.responsive-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+} 
+ 
+/* Adjust image height for responsiveness */
+@media (min-width: 640px) {
+  .responsive-img {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .responsive-img {
+    height: 600px;
+  }
+}
+
+
+/* products */ 
+
+/* .ProductCard .swiper {
+  width: 100%;
+  height: 100%;
+} 
+.ProductCard .swiper-pagination{
+  display: none !important;
+}
+
+.ProductCard .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  min-width: 302.5px !important;
+  width: 302.5px  !important;
+  /* Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+} */ 
+
+/* .ProductCard .swiper-slide img {
+  display: block;
+  width: 50%;
+  height: 90%;
+  object-fit: cover;
+}  */
+
+
+/* .DairyProducts .swiper-slide */
+/* 
+.DairyProducts .swiper-slide {
+  min-width: 302.5px !important;
+  width: 302.5px  !important;
+}
+
+.DairyProducts .swiper-pagination{
+  display: none !important;
+} */ 
+
+.ProductCard .swiper-pagination{
+  display: none !important;
+}
+
+.DairyProducts .swiper-pagination{
+  display: none !important;
+} 

@@ -1,0 +1,894 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Fruits & Vegetables",
+      "image": "https://png.pngtree.com/png-clipart/20230526/ourmid/pngtree-vegetables-and-fruits-in-a-basket-made-with-generative-ai-png-image_7110313.png",
+      "bgcolor": "bg-purple-200"
+    },
+    {
+      "id": "2",
+      "name": "Oil & Ghee",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690180468Ghee500ml1.png",
+      "bgcolor": "bg-green-100"
+    },
+    {
+      "id": "3",
+      "name": "Dairy",
+      "image": "https://png.pngtree.com/png-vector/20240615/ourmid/pngtree-healthy-meatless-dairy-butter-png-image_12748214.png",
+      "bgcolor": "bg-gray-200"
+    },
+    {
+      "id": "4",
+      "name": "Snacks & Biscuits",
+      "image": "https://amul.com/files/products/promotion/Chocolate-cookies_with_transparent.png",
+      "bgcolor": "bg-gray-200"
+    },
+    {
+      "id": "5",
+      "name": "Sweets & Dry Fruits",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40182584_4-amul-kesar-peda.jpg",
+      "bgcolor": "bg-yellow-100"
+    }, 
+    {
+      "id": "6",
+      "name": "Rice & Flour",
+      "image": "https://pngfile.net/public/uploads/preview/daawat-basmati-rice-21590765524zag1ie6op9.png",
+      "bgcolor": "bg-blue-100"
+    },
+    {
+      "id": "7",
+      "name": "Special Masala",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/268941-2_2-everest-pav-bhaji-masala.jpg",
+      "bgcolor": "bg-green-100"
+    }
+  ],  
+  "products": [
+    {
+      "id": "1",
+      "category": "Fruits & Vegetables",
+      "name": "Apple 1kg",
+      "image": "https://png.pngtree.com/png-vector/20240205/ourmid/pngtree-group-of-red-apple-fruits-png-image_11625188.png",
+      "price": 120,
+      "rating": 4
+    },
+    {
+      "id": "2",
+      "category": "Fruits & Vegetables",
+      "name": "Potatos 1kg",
+      "image": "https://static.vecteezy.com/system/resources/previews/048/050/936/non_2x/potatoes-with-leaves-on-transparent-background-background-png.png",
+      "price": 25,
+      "rating": 4
+    },
+    {
+      "id": "3",
+      "category": "Fruits & Vegetables",
+      "name": "Tomatos 1kg",
+      "image": "https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-fruit-fresh-tomato-png-image_9959799.png",
+      "price": 30,
+      "rating": 5
+    },
+    {
+      "id": "4",
+      "category": "Fruits & Vegetables",
+      "name": "Broccoli 1kg",
+      "image": "https://png.pngtree.com/png-vector/20240905/ourmid/pngtree-fresh-broccoli-high-quality-isolated-png-image_13758277.png",
+      "price": 30,
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "category": "Fruits & Vegetables",
+      "name": "Green Beans 500g",
+      "image": "https://5.imimg.com/data5/ECOM/Default/2023/4/300005565/RE/US/YB/147328428/1649691878126-sku-0210-0.png",
+      "price": 40,
+      "rating": 4
+    },
+    {
+      "id": "6",
+      "category": "Fruits & Vegetables",
+      "name": "Orange 1kg",
+      "image": "https://png.pngtree.com/png-vector/20240205/ourmid/pngtree-oranges-citrus-fruits-png-image_11626812.png",
+      "price": 60,
+      "rating": 4
+    },
+    {
+      "id": "7",
+      "category": "Fruits & Vegetables",
+      "name": "Radish 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/xxl/10000164-5_3-fresho-radish-white.jpg",
+      "price": 30,
+      "rating": 3
+    },
+    {
+      "id": "8",
+      "category": "Fruits & Vegetables",
+      "name": "Strawberry 1kg",
+      "image": "https://www.pngplay.com/wp-content/uploads/1/Single-Strawberry-PNG-Photos.png",
+      "price": 80,
+      "rating": 4
+    },
+    {
+      "id": "9",
+      "category": "Fruits & Vegetables",
+      "name": "Peach 500g",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/022/825/541/small_2x/peach-fruit-peach-on-transparent-background-png.png",
+      "price": 100,
+      "rating": 4
+    },
+    {
+      "id": "10",
+      "category": "Fruits & Vegetables",
+      "name": "Carrot 1kg",
+      "image": "https://www.bigbasket.com/media/uploads/p/xxl/10000270-4_3-fresho-carrot-ooty.jpg",
+      "price": 35,
+      "rating": 4
+    },
+    {
+      "id": "11",
+      "category": "Fruits & Vegetables",
+      "name": "Brinjal 1kg",
+      "image": "https://www.bigbasket.com/media/uploads/p/xl/30000434_13-fresho-brinjal-purple-bharta.jpg",
+      "price": 50,
+      "rating": 5
+    },
+    {
+      "id": "12",
+      "category": "Fruits & Vegetables",
+      "name": "Cucumber 1kg",
+      "image": "https://rahath.in/wp-content/uploads/2024/03/kheera.png",
+      "price": 25,
+      "rating": 4
+    },
+    {
+      "id": "13",
+      "category": "Fruits & Vegetables",
+      "name": "Capsicum 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/xl/10000067-5_4-fresho-capsicum-green.jpg",
+      "price": 50,
+      "rating": 5
+    },
+    {
+      "id": "14",
+      "category": "Fruits & Vegetables",
+      "name": "Banana 1 Dozen",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40325688_1-fresho-banana-amruthapani.jpg",
+      "price": 40,
+      "rating": 4
+    },
+    {
+      "id": "15",
+      "category": "Fruits & Vegetables",
+      "name": "Grapes 1kg",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/20001427_2-fresho-grapes-green-with-seed.jpg",
+      "price": 90,
+      "rating": 5
+    },
+    {
+      "id": "16",
+      "category": "Fruits & Vegetables",
+      "name": "Mango 1kg",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/033/151/970/small/mango-in-woven-basket-png.png",
+      "price": 150,
+      "rating": 5
+    },
+    {
+      "id": "17",
+      "category": "Fruits & Vegetables",
+      "name": "Pineapple 1 piece",
+      "image": "https://eyyxje6sgo4.exactdn.com/wp-content/uploads/2023/01/fruits-for-product-page-22.png?strip=all&lossy=1&ssl=1",
+      "price": 80,
+      "rating": 4
+    },
+    {
+      "id": "18",
+      "category": "Fruits & Vegetables",
+      "name": "Papaya 1 piece",
+      "image": "https://static.vecteezy.com/system/resources/previews/025/230/099/non_2x/fresh-papaya-fruit-with-slice-isolated-on-transparent-background-png.png",
+      "price": 30,
+      "rating": 4
+    },
+    {
+      "id": "19",
+      "category": "Fruits & Vegetables",
+      "name": "Zucchini 1kg",
+      "image": "https://png.pngtree.com/png-vector/20240722/ourmid/pngtree-3d-fresh-zucchini-with-slices-on-transparent-background-png-image_13183816.png",
+      "price": 40,
+      "rating": 4
+    }
+  ],
+  "dairy": [
+    {
+      "id": "1",
+      "category": "Dairy",
+      "name": "Milk 1L",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/306926-2_4-amul-homogenised-toned-milk.jpg",
+      "price": 50,
+      "rating": 4
+    },
+    {
+      "id": "2",
+      "category": "Dairy",
+      "name": "Cheese 200g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/229136-2_2-amul-cheese-slices.jpg",
+      "price": 120,
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "category": "Dairy",
+      "name": "Butter 100g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/1202759-2_2-amul-butter-pasteurized.jpg",
+      "price": 45,
+      "rating": 4
+    },
+    {
+      "id": "4",
+      "category": "Dairy",
+      "name": "Curd 400g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/104851-2_2-amul-masti-dahi.jpg",
+      "price": 40,
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "category": "Dairy",
+      "name": "Cream 250ml",
+      "image": "https://www.bigbasket.com/media/uploads/p/xxl/40102603_3-amul-fresh-cream-25-milk-fat-low-fat.jpg",
+      "price": 70,
+      "rating": 3
+    },
+    {
+      "id": "6",
+      "category": "Dairy",
+      "name": "Paneer 250g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40096747-2_8-amul-malai-fresh-paneer.jpg",
+      "price": 80,
+      "rating": 4
+    },
+    {
+      "id": "7",
+      "category": "Dairy",
+      "name": "Lassi 250ml",
+      "image": "https://sbsfoodmart.com/wp-content/uploads/2024/06/6-5.png",
+      "price": 25,
+      "rating": 5
+    }
+  ],
+  "snacksBiscuits": [
+    {
+      "id": "1",
+      "category": "Snacks & Biscuits",
+      "name": "Potato Chips 50g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/1212518-2_7-lays-potato-chips-classic-salted.jpg",
+      "price": 20,
+      "rating": 4
+    },
+    {
+      "id": "2",
+      "category": "Snacks & Biscuits",
+      "name": "Salted Peanuts 200g",
+      "image": "https://www.bigbasket.com/media/uploads/p/xl/70000468_2-bikano-namkeen-peanut.jpg",
+      "price": 60,
+      "rating": 4
+    },
+    {
+      "id": "3",
+      "category": "Snacks & Biscuits",
+      "name": "Chocolate Cookies 200g",
+      "image": "https://amul.com/files/products/promotion/Chocolate-cookies_with_transparent.png",
+      "price": 30,
+      "rating": 5
+    },
+    {
+      "id": "4",
+      "category": "Snacks & Biscuits",
+      "name": "Nachos 150g",
+      "image": "https://www.salsalito.in/image/nacho-product/sweat_chilli.png",
+      "price": 90,
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "category": "Snacks & Biscuits",
+      "name": "Cream Biscuits 150g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/263593_23-britannia-bourbon-chocolate-cream-biscuits.jpg",
+      "price": 40,
+      "rating": 5
+    },
+    {
+      "id": "6",
+      "category": "Snacks & Biscuits",
+      "name": "Masala Potato Chips 100g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/294277_12-bingo-potato-chips-masala.jpg",
+      "price": 30,
+      "rating": 4
+    },
+    {
+      "id": "7",
+      "category": "Snacks & Biscuits",
+      "name": "Salted Crackers 200g",
+      "image": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/dqrgdz9trhns1ip6wabq",
+      "price": 30,
+      "rating": 5
+    },
+    {
+      "id": "8",
+      "category": "Snacks & Biscuits",
+      "name": "Puff Snacks 100g",
+      "image": "https://india.neelamfoodland.in/cdn/shop/products/IMG_7676_800x.jpg?v=1700825327",
+      "price": 20,
+      "rating": 4
+    },
+    {
+      "id": "9",
+      "category": "Snacks & Biscuits",
+      "name": "Marie Biscuits 300g",
+      "image": "https://www.bigbasket.com/media/uploads/p/xl/40303649_1-sobisco-marie-biscuit-0-cholesterol-more-light-crispy.jpg",
+      "price": 40,
+      "rating": 4
+    },
+    {
+      "id": "10",
+      "category": "Snacks & Biscuits",
+      "name": "Choco Wafers 250g",
+      "image": "https://www.bigbasket.com/media/uploads/p/xl/40065768_9-dukes-waffy-choco-roll.jpg",
+      "price": 70,
+      "rating": 5
+    }
+  ],
+  "sweetsDryFruits": [
+    {
+      "id": "1",
+      "category": "Sweets & Dry Fruits",
+      "name": "Almonds 250g",
+      "image": "https://m.media-amazon.com/images/I/81vzWFgUIZL._SX679_.jpg",
+      "price": 290,
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "category": "Sweets & Dry Fruits",
+      "name": "Cashews 200g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40210968_2-super-saver-cashew-nuts-super-saver.jpg",
+      "price": 180,
+      "rating": 4
+    },
+    {
+      "id": "3",
+      "category": "Sweets & Dry Fruits",
+      "name": "Rasgulla 1kg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40116090_2-amul-rasgulla.jpg",
+      "price": 200,
+      "rating": 5
+    },
+    {
+      "id": "4",
+      "category": "Sweets & Dry Fruits",
+      "name": "Kaju Katli 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/xxl/40201891_3-haldirams-kaju-katli.jpg",
+      "price": 550,
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "category": "Sweets & Dry Fruits",
+      "name": "Dried Figs 250g",
+      "image": "https://luluindia-prod-assets.s3.ap-south-1.amazonaws.com/pims/grocery/products/597535_1.png",
+      "price": 220,
+      "rating": 4
+    },
+    {
+      "id": "6",
+      "category": "Sweets & Dry Fruits",
+      "name": "Dates 500g",
+      "image": "https://m.media-amazon.com/images/I/61v8WrtR4iL.jpg",
+      "price": 150,
+      "rating": 4
+    },
+    {
+      "id": "7",
+      "category": "Sweets & Dry Fruits",
+      "name": "Besan Ladoo 500g",
+      "image": "https://www.jiomart.com/images/product/original/491361756/haldiram-besan-laddu500-g-carton-product-images-o491361756-p590122139-0-202204261916.jpg?im=Resize=(420,420)",
+      "price": 200,
+      "rating": 5
+    },
+    {
+      "id": "8",
+      "category": "Sweets & Dry Fruits",
+      "name": "Pistachios 200g",
+      "image": "https://ministryofnuts.in/cdn/shop/files/Pistapdp200g_900x.jpg?v=1704719544",
+      "price": 300,
+      "rating": 5
+    },
+    {
+      "id": "9",
+      "category": "Sweets & Dry Fruits",
+      "name": "Gulab Jamun 1kg",
+      "image": "https://basantsweets.in/wp-content/uploads/2022/08/Hr-Gulab-Jamun-792x1024.jpg.webp",
+      "price": 240,
+      "rating": 4
+    },
+    {
+      "id": "10",
+      "category": "Sweets & Dry Fruits",
+      "name": "Kesar Peda 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40182584_4-amul-kesar-peda.jpg",
+      "price": 250,
+      "rating": 5
+    }
+  ],
+  "specialMasala": [
+    {
+      "id": "1",
+      "category": "Special Masala",
+      "name": "Garam Masala 100g",
+      "image": "https://s7ap1.scene7.com/is/image/itcportalprod/aashirvaad%20garam%20masala%20powder?fmt=webp-alpha",
+      "price": 60,
+      "rating": 4
+    },
+    {
+      "id": "2",
+      "category": "Special Masala",
+      "name": "Chaat Masala 100g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/268937-2_2-everest-chaat-masala.jpg",
+      "price": 60,
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "category": "Special Masala",
+      "name": "Pav Bhaji Masala 100g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/268941-2_2-everest-pav-bhaji-masala.jpg",
+      "price": 70,
+      "rating": 5
+    },
+    {
+      "id": "4",
+      "category": "Special Masala",
+      "name": "Biryani Masala 100g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/100270856_7-eastern-masala-biryani.jpg",
+      "price": 65,
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "category": "Special Masala",
+      "name": "Kitchen King Masala 100g",
+      "image": "https://cdn.rationatmydoor.com/wp-content/uploads/2019/02/catch-kitchen-king-masala.png",
+      "price": 55,
+      "rating": 4
+    },
+    {
+      "id": "6",
+      "category": "Special Masala",
+      "name": "Chole Masala 100g",
+      "image": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/79cfeb4540511f6dedce7f462bcb3acf",
+      "price": 50,
+      "rating": 5
+    },
+    {
+      "id": "7",
+      "category": "Special Masala",
+      "name": "Chicken Masala 100g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40011544_6-eastern-masala-chicken.jpg",
+      "price": 65,
+      "rating": 4
+    },
+    {
+      "id": "8",
+      "category": "Special Masala",
+      "name": "Fish Curry Masala 100g",
+      "image": "https://img.cdnx.in/71794/1643731702754_5bda882ccfe66_Fish-Masala-500x600.png?width=600",
+      "price": 70,
+      "rating": 4
+    },
+    {
+      "id": "9",
+      "category": "Special Masala",
+      "name": "Sambar Masala 100g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/30002392-2_2-everest-sambhar-masala.jpg",
+      "price": 60,
+      "rating": 5
+    },
+    {
+      "id": "10",
+      "category": "Special Masala",
+      "name": "Rasam Powder 100g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/100495466_3-eastern-powder-rasam.jpg",
+      "price": 45,
+      "rating": 4
+    }
+  ],
+  "riceFlour": [
+    {
+      "id": "1",
+      "category": "Rice & Flour",
+      "name": "Basmati Rice 1kg",
+      "image": "https://pngfile.net/public/uploads/preview/daawat-basmati-rice-21590765524zag1ie6op9.png",
+      "price": 90,
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "category": "Rice & Flour",
+      "name": "Wheat Flour 1kg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/126906_9-aashirvaad-atta-whole-wheat.jpg",
+      "price": 40,
+      "rating": 4
+    },
+    {
+      "id": "3",
+      "category": "Rice & Flour",
+      "name": "Rice Flour 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/279849_8-24-mantra-organic-flour-rice.jpg",
+      "price": 60,
+      "rating": 4
+    },
+    {
+      "id": "4",
+      "category": "Rice & Flour",
+      "name": "Maida 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40194163_3-fortune-maida.jpg",
+      "price": 25,
+      "rating": 3
+    },
+    {
+      "id": "5",
+      "category": "Rice & Flour",
+      "name": "Jowar Flour 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/279827_8-24-mantra-organic-flour-jowar.jpg",
+      "price": 40,
+      "rating": 4
+    },
+    {
+      "id": "6",
+      "category": "Rice & Flour",
+      "name": "Brown Rice 1kg",
+      "image": "https://ayurvedalifeclinic.com/wp-content/uploads/2023/09/1689747996BrownBasmatiRice1kg1-666x666.png",
+      "price": 150,
+      "rating": 5
+    },
+    {
+      "id": "7",
+      "category": "Rice & Flour",
+      "name": "Idli Rice 1kg",
+      "image": "https://s7ap1.scene7.com/is/image/itcportalprod/aashirvaad%20riceidli?fmt=webp-alpha",
+      "price": 70,
+      "rating": 4
+    },
+    {
+      "id": "8",
+      "category": "Rice & Flour",
+      "name": "Bajra Flour 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/279783_6-24-mantra-organic-bajra-flour.jpg",
+      "price": 35,
+      "rating": 4
+    },
+    {
+      "id": "9",
+      "category": "Rice & Flour",
+      "name": "Ragi Flour 500g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/279808_8-24-mantra-organic-flour-ragi.jpg",
+      "price": 40,
+      "rating": 4
+    },
+    {
+      "id": "10",
+      "category": "Rice & Flour",
+      "name": "Multigrain Flour 1kg",
+      "image": "https://www.bigbasket.com/media/uploads/p/xl/1211913-2_1-bb-royal-multigrain-atta-fortified.jpg",
+      "price": 60,
+      "rating": 5
+    }
+  ],
+  "oilGhee": [
+    {
+      "id": "1",
+      "category": "Oil & Ghee",
+      "name": "Sunflower Oil 1L",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/271035-2_4-freedom-refined-oil-sunflower.jpg",
+      "price": 110,
+      "rating": 4
+    },
+    {
+      "id": "2",
+      "category": "Oil & Ghee",
+      "name": "Mustard Oil 1L",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1692689763MustardOil1ltrPNew1.png",
+      "price": 130,
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "category": "Oil & Ghee",
+      "name": "Olive Oil 500ml",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40006247_3-borges-olive-oil-extra-virgin.jpg",
+      "price": 500,
+      "rating": 5
+    },
+    {
+      "id": "4",
+      "category": "Oil & Ghee",
+      "name": "Desi Ghee 500ml",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690180468Ghee500ml1.png",
+      "price": 330,
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "category": "Oil & Ghee",
+      "name": "Coconut Oil 500ml",
+      "image": "https://www.ennai-kadai.com/product-images/20240903_121102-removebg-preview.png/2041143000000031284/700x700",
+      "price": 180,
+      "rating": 4
+    },
+    {
+      "id": "6",
+      "category": "Oil & Ghee",
+      "name": "Sesame Oil 500ml",
+      "image": "https://gokarto.com/wp-content/uploads/2023/01/Sesame-Oil-500-ml-01.png",
+      "price": 320,
+      "rating": 4
+    },
+    {
+      "id": "7",
+      "category": "Oil & Ghee",
+      "name": "Groundnut Oil 1L",
+      "image": "https://ksroyalfoods.com/wp-content/uploads/2023/02/1Litre-Groundnut-Oil-ksroyalfoods.com-1.png",
+      "price": 140,
+      "rating": 5
+    },
+    {
+      "id": "8",
+      "category": "Oil & Ghee",
+      "name": "Rice Bran Oil 1L",
+      "image": "https://www.bigbasket.com/media/uploads/p/xl/1204454-3_1-fortune-refined-oil-rice-bran.jpg",
+      "price": 130,
+      "rating": 4
+    },
+    {
+      "id": "9",
+      "category": "Oil & Ghee",
+      "name": "Palm Oil 1L",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40054143_3-palmpure-refined-palmolein-oil-imported.jpg",
+      "price": 100,
+      "rating": 3
+    },
+    {
+      "id": "10",
+      "category": "Oil & Ghee",
+      "name": "Vanaspati Ghee 1L",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40006893-2_2-dalda-vanaspati.jpg",
+      "price": 160,
+      "rating": 3
+    }
+  ],
+  "cart": [
+    {
+      "category": "Dairy",
+      "name": "Cheese 200g",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/229136-2_2-amul-cheese-slices.jpg",
+      "price": 120,
+      "rating": 5,
+      "userid": "48",
+      "quantity": 1,
+      "id": 1
+    }
+  ],
+  "order": [
+    {
+      "items": [
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Tomatos 1kg",
+          "image": "./src/assets/Rectangle 19-2.png",
+          "price": 30,
+          "rating": 5,
+          "userid": "B3TZqKv",
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "userid": "B3TZqKv",
+      "total": 30,
+      "date": "2024-11-28T06:50:56.474Z",
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Broccoli 1kg",
+          "image": "./src/assets/Rectangle 19-3.png",
+          "price": 30,
+          "rating": 4,
+          "userid": "47",
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "userid": "47",
+      "total": 30,
+      "date": "2024-11-28T06:52:07.057Z",
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Potatos 1kg",
+          "image": "./src/assets/Rectangle 19-1.png",
+          "price": 25,
+          "rating": 4,
+          "userid": "47",
+          "quantity": 2,
+          "id": 3
+        }
+      ],
+      "userid": "47",
+      "total": 50,
+      "date": "2024-11-28T06:53:08.202Z",
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Potatos 1kg",
+          "image": "./src/assets/Rectangle 19-1.png",
+          "price": 25,
+          "rating": 4,
+          "userid": "MorqXZi",
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "userid": "MorqXZi",
+      "total": 25,
+      "date": "2024-11-28T09:36:57.249Z",
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Tomatos 1kg",
+          "image": "https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-fruit-fresh-tomato-png-image_9959799.png",
+          "price": 30,
+          "rating": 5,
+          "userid": "3e9jcZC",
+          "quantity": 1,
+          "id": 2
+        },
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Broccoli 1kg",
+          "image": "https://png.pngtree.com/png-vector/20240905/ourmid/pngtree-fresh-broccoli-high-quality-isolated-png-image_13758277.png",
+          "price": 30,
+          "rating": 4,
+          "userid": "3e9jcZC",
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "userid": "3e9jcZC",
+      "total": 60,
+      "date": "2024-12-02T11:57:00.304Z",
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Potatos 1kg",
+          "image": "https://static.vecteezy.com/system/resources/previews/048/050/936/non_2x/potatoes-with-leaves-on-transparent-background-background-png.png",
+          "price": 25,
+          "rating": 4,
+          "userid": "3e9jcZC",
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "userid": "3e9jcZC",
+      "total": 25,
+      "date": "2024-12-04T08:43:30.403Z",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Tomatos 1kg",
+          "image": "https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-fruit-fresh-tomato-png-image_9959799.png",
+          "price": 30,
+          "rating": 5,
+          "userid": "3e9jcZC",
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "userid": "3e9jcZC",
+      "total": 30,
+      "date": "2024-12-07T11:36:55.831Z",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "category": "Fruits & Vegetables",
+          "name": "Tomatos 1kg",
+          "image": "https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-fruit-fresh-tomato-png-image_9959799.png",
+          "price": 30,
+          "rating": 5,
+          "userid": "3e9jcZC",
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "userid": "3e9jcZC",
+      "total": 30,
+      "date": "2024-12-09T09:23:22.345Z",
+      "id": 8
+    }
+  ],
+  "wishlist": [],
+  "adminpanel": [],
+  "auth": [
+    {
+      "username": "DK",
+      "phoneNumber": "8888888888",
+      "password": "888",
+      "id": "MorqXZi"
+    },
+    {
+      "username": "erere",
+      "phoneNumber": "1111111111",
+      "password": "11",
+      "id": "p5--hxS"
+    },
+    {
+      "username": "Dhulu",
+      "phoneNumber": "9313292974",
+      "password": "99",
+      "id": "TpGNp_M"
+    },
+    {
+      "username": "Rock",
+      "phoneNumber": "7777777777",
+      "password": "777",
+      "id": "B3TZqKv"
+    },
+    {
+      "username": "fuhurfh",
+      "phoneNumber": "5555555555",
+      "password": "55",
+      "id": "C09CfX_"
+    },
+    {
+      "username": "tanu",
+      "phoneNumber": "9999988888",
+      "password": "98",
+      "id": "CxETOvc"
+    },
+    {
+      "username": "rrrr",
+      "phoneNumber": "9999999999",
+      "password": "999",
+      "id": "3e9jcZC"
+    },
+    {
+      "username": "Kapil",
+      "phoneNumber": "6666666666",
+      "password": "666",
+      "id": "qpkov2M"
+    },
+    {
+      "username": "hggth",
+      "phoneNumber": "3333333333",
+      "password": "333",
+      "id": "JFLchGJ"
+    }
+  ]
+}
