@@ -35,7 +35,7 @@ const Navbar = () => {
     if (searchQuery.trim()) {
       navigate(`/search?query=${encodeURIComponent(searchQuery)}`);
     }
-  };
+  }; 
 
   const handleLogout = () => {
     setUsersignupdata(null);
@@ -159,8 +159,10 @@ const Navbar = () => {
           </div>
         ) : (
           <>
-            <Link to="/signup" className="text-green-600 hover:text-green-800">
+            <Link to="/signup">
+              <button className="text-green-600 hover:text-green-800">
               Register
+              </button>
             </Link>
             <Link to="/login">
               <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
@@ -257,7 +259,7 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar; 
 
 
 // import React, { useEffect, useCallback, useState } from "react";

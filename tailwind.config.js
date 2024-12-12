@@ -14,9 +14,10 @@ export default {
     'bg-green-100',
     'bg-gray-200',
     'bg-red-100',
-    'bg-purple-200',
+    'bg-purple-100',
     'bg-yellow-100',
     'bg-blue-100',
+    'bg-orange-100',
   ],
 }
 

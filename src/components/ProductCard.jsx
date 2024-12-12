@@ -128,7 +128,7 @@ const ProductCard = ({ searchTerm }) => {
 
   return (
     <div className="ProductCard mt-2 md:mt-10">
-      <h2 className="text-lg md:text-2xl font-semibold mb-4">Vegetable & Fruits Products</h2>
+      <h2 className="text-lg md:text-2xl font-semibold mb-4">Vegetable & Fruits</h2>
       <div className="mb-2 mt-2 flex justify-end">
         <Link to="/products" className="text-blue-500 hover:underline">
           View All

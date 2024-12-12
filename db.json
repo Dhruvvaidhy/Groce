@@ -4,13 +4,13 @@
       "id": "1",
       "name": "Fruits & Vegetables",
       "image": "https://png.pngtree.com/png-clipart/20230526/ourmid/pngtree-vegetables-and-fruits-in-a-basket-made-with-generative-ai-png-image_7110313.png",
-      "bgcolor": "bg-purple-200"
+      "bgcolor": "bg-purple-100"
     },
     {
       "id": "2",
       "name": "Oil & Ghee",
       "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690180468Ghee500ml1.png",
-      "bgcolor": "bg-green-100"
+      "bgcolor": "bg-orange-100"
     },
     {
       "id": "3",
@@ -22,14 +22,14 @@
       "id": "4",
       "name": "Snacks & Biscuits",
       "image": "https://amul.com/files/products/promotion/Chocolate-cookies_with_transparent.png",
-      "bgcolor": "bg-gray-200"
+      "bgcolor": "bg-red-100"
     },
     {
       "id": "5",
       "name": "Sweets & Dry Fruits",
       "image": "https://www.bigbasket.com/media/uploads/p/l/40182584_4-amul-kesar-peda.jpg",
       "bgcolor": "bg-yellow-100"
-    }, 
+    },
     {
       "id": "6",
       "name": "Rice & Flour",
@@ -42,7 +42,7 @@
       "image": "https://www.bigbasket.com/media/uploads/p/l/268941-2_2-everest-pav-bhaji-masala.jpg",
       "bgcolor": "bg-green-100"
     }
-  ],  
+  ],
   "products": [
     {
       "id": "1",
@@ -59,7 +59,7 @@
       "image": "https://static.vecteezy.com/system/resources/previews/048/050/936/non_2x/potatoes-with-leaves-on-transparent-background-background-png.png",
       "price": 25,
       "rating": 4
-    },
+    }, 
     {
       "id": "3",
       "category": "Fruits & Vegetables",
@@ -67,7 +67,7 @@
       "image": "https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-fruit-fresh-tomato-png-image_9959799.png",
       "price": 30,
       "rating": 5
-    },
+    }, 
     {
       "id": "4",
       "category": "Fruits & Vegetables",
