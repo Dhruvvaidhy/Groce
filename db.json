@@ -59,7 +59,7 @@
       "image": "https://static.vecteezy.com/system/resources/previews/048/050/936/non_2x/potatoes-with-leaves-on-transparent-background-background-png.png",
       "price": 25,
       "rating": 4
-    }, 
+    },
     {
       "id": "3",
       "category": "Fruits & Vegetables",
@@ -67,7 +67,7 @@
       "image": "https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-fruit-fresh-tomato-png-image_9959799.png",
       "price": 30,
       "rating": 5
-    }, 
+    },
     {
       "id": "4",
       "category": "Fruits & Vegetables",
@@ -889,6 +889,18 @@
       "phoneNumber": "3333333333",
       "password": "333",
       "id": "JFLchGJ"
+    },
+    {
+      "firstName": "dhruv",
+      "lastName": "v",
+      "username": "rocky",
+      "email": "warriorrocky@gmail.com",
+      "currentdate": "2024-12-16",
+      "dateOfBirth": "2004-09-23",
+      "phoneNumber": "8888888888",
+      "password": "88888888",
+      "role": "user",
+      "id": "dCelf7Y"
     }
   ]
 }

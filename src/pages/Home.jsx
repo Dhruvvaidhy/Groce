@@ -1,11 +1,138 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+// import React, { useEffect } from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css"; // Import AOS styles
+// import ProductCard from "../components/ProductCard";
+// import Footer from "../components/Footer";
+// import Adds from "../components/Adds";
+// import Poster from "../components/Poster";
+// import Banner from "../components/Banner";
+// import DairyProducts from "../components/DairyProducts";
+// import SnacksBiscuits from "../components/SnacksBiscuits";
+// import SweetsDryFruits from "../components/SweetsDryFruits";
+// import RiceFlour from "../components/RiceFlour";
+// import SpecialMasala from "../components/SpecialMasala";
+// import OilGhee from "../components/OilGhee";
+// import ExploreCategories from "../components/ExploreCategories ";
+// const Home = () => {
+//   useEffect(() => {
+//     AOS.init({
+//       duration: 1000, // Animation duration in ms
+//       // easing: "ease-in-out", // Animation easing
+//       offset: 500, // Trigger animations earlier
+//       once: false, // Re-trigger animations when elements reappear
+//     });
+//   }, []);
+
+//   return (
+//     <>
+//       <div className="min-h-screen bg-[#faf8f8] p-4 mb-4">
+//         {/* Banner Section */}
+//         <div data-aos="fade-down">
+//           <Banner />
+//         </div> 
+        
+//         <div data-aos="fade-up">
+//           <ExploreCategories />
+//         </div>
+        
+//         <div data-aos="zoom-in">
+//           <Poster />
+//         </div>
+        
+//         <div data-aos="fade-right">
+//           <ProductCard />
+//         </div> 
+        
+//         <div data-aos="fade-left">
+//           <DairyProducts />
+//         </div>
+        
+//         <div data-aos="flip-up">
+//           <SnacksBiscuits />
+//         </div>
+        
+//         <div data-aos="flip-down">
+//           <SweetsDryFruits />
+//         </div>
+        
+//         <div data-aos="fade-up">
+//           <RiceFlour />
+//         </div>
+        
+//         <div data-aos="zoom-out">
+//           <SpecialMasala />
+//         </div>
+        
+//         <div data-aos="fade-in">
+//           <OilGhee />
+//         </div>
+        
+//         <div data-aos="slide-up">
+//           <Adds />
+//         </div>
+        
+//         <div data-aos="fade-in">
+//           <Footer />
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+
+// export default Home;
+
+
+
+
+// import React, { useState, useEffect } from "react";
+// import axios from "axios";
+// import ProductCard from "../components/ProductCard";
+// import ExploreCategories from "../components/ExploreCategories ";
+// import Footer from "../components/Footer";
+// import Adds from "../components/Adds";
+// import Poster from "../components/Poster";
+// // import Navbar from "../components/Navbar";
+// import Banner from "../components/Banner";
+// import DairyProducts from "../components/DairyProducts";
+// import SnacksBiscuits from "../components/SnacksBiscuits";
+// import SweetsDryFruits from "../components/SweetsDryFruits";
+// import RiceFlour from "../components/RiceFlour";
+// import SpecialMasala from "../components/SpecialMasala";
+// import OilGhee from "../components/OilGhee";
+
+// const Home = () => {
+//   return (
+//   <>
+ 
+//     <div className="min-h-screen bg-[#faf8f8] p-4 mb-4">
+//       {/* Banner Section */} 
+//           <Banner/>
+//           <ExploreCategories/>
+//           <Poster />       
+//           <ProductCard />
+//           <DairyProducts />
+//           <SnacksBiscuits />
+//           <SweetsDryFruits />
+//           <RiceFlour /> 
+//           <SpecialMasala />
+//           <OilGhee />        
+//           <Adds/>
+//           <Footer/>
+//     </div>
+//     </>
+//   );
+// };
+
+// export default Home;
+
+
+import React from "react";
+import { motion } from "framer-motion";
 import ProductCard from "../components/ProductCard";
 import ExploreCategories from "../components/ExploreCategories ";
 import Footer from "../components/Footer";
 import Adds from "../components/Adds";
 import Poster from "../components/Poster";
-// import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import DairyProducts from "../components/DairyProducts";
 import SnacksBiscuits from "../components/SnacksBiscuits";
@@ -14,58 +141,128 @@ import RiceFlour from "../components/RiceFlour";
 import SpecialMasala from "../components/SpecialMasala";
 import OilGhee from "../components/OilGhee";
 
+const scrollAnimation = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
+
 const Home = () => {
-  // const [searchTerm, setSearchTerm] = useState('');
-  const [products, setProducts] = useState([]);
-  
-
- 
-
-  // Fetch products from the API
-  useEffect(() => {
-    axios
-      .get("http://localhost:5000/products") // URL of the json-server API
-      .then((response) => {
-        setProducts(response.data);
-      })
-      .catch((error) => {
-        console.error("Error fetching the product data:", error);
-      });
-  }, []);
-
-
-
-
   return (
-  <>
- 
     <div className="min-h-screen bg-[#faf8f8] p-4 mb-4">
-      {/* Banner Section */} 
-      <Banner/>
-      
-      <ExploreCategories/>
-      <Poster />
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"> */}
-        
-          <ProductCard />
-          <DairyProducts  />
-          <SnacksBiscuits  />
-          <SweetsDryFruits  />
-          <RiceFlour  /> 
-          <SpecialMasala  />
-          <OilGhee  /> 
+      {/* Banner Section */}
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <Banner />
+      </motion.div>
 
-        
-      
-  
-      <Adds/>
-      <Footer/>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <ExploreCategories />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <Poster />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <ProductCard />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <DairyProducts />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <SnacksBiscuits />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <SweetsDryFruits />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <RiceFlour />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <SpecialMasala />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <OilGhee />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <Adds />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+        variants={scrollAnimation}
+      >
+        <Footer />
+      </motion.div>
     </div>
-    </>
   );
 };
 
 export default Home;
+
 
 // import React, { useState, useEffect } from "react";
 // import axios from "axios";

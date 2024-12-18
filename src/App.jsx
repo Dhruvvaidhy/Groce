@@ -33,17 +33,11 @@ function App() {
     <AuthProvider>
       <LogProvider>
       <CartProvider>
-        <WishlistProvider>
- 
-
-         <Navbar/>
-         
-          
-          <Routes>
-            
+        <WishlistProvider> 
+         <Navbar/>          
+          <Routes>            
             {/* Home is accessible to everyone */}
             <Route path="/" element={<Home />} />
-
             {/* Prevent authenticated users from accessing login/signup */}
             <Route
               path="/signup"
@@ -61,15 +55,10 @@ function App() {
                 </ProtectedRoute>
               }
             />
-
             {/* Only authenticated users can access Cart and Wishlist */}
             <Route path="/cart" element={<Cart />} />
-            <Route path="/wishlist" element={<Wishlist />} />
-      
+            <Route path="/wishlist" element={<Wishlist />} />      
             <Route path="/checkout" element={<Checkout/>} />
-            
-          
-
             <Route path="/complete" element={<OrderComplete/>} />
             <Route path="/all" element={<AllDairyProducts/>} />
             <Route path="/products" element={<AllProductsPage />} />
@@ -81,9 +70,8 @@ function App() {
             {/* <Route path="/myorder" element={<MyOrders />} /> */}
             <Route path="/myorder" element={<MyOrders />} />
             <Route path="/category" element={<ExploreCategories />} />
-        <Route path="/category/:name" element={<CategoryPage />} />
-        <Route path="/search" element={<SearchResults />} />
-
+            <Route path="/category/:name" element={<CategoryPage />} />
+            <Route path="/search" element={<SearchResults />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </WishlistProvider>

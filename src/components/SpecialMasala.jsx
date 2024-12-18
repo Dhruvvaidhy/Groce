@@ -29,7 +29,7 @@ const SpecialMasala = ({ searchTerm }) => {
   useEffect(() => {
     // Fetch dairy products from API
     const fetchDairyProducts = async () => {
-      try {
+      try {  
         const response = await axios.get("http://localhost:5000/specialMasala");
         setProducts(response.data);
         setFilteredProducts(response.data);
@@ -41,8 +41,8 @@ const SpecialMasala = ({ searchTerm }) => {
     fetchDairyProducts();
   }, []);
 
-  useEffect(() => {
-    let filtered = products;
+  useEffect(() => {    
+    let filtered = products;  
 
     if (selectedCategory !== "All") {
       filtered = filtered.filter(

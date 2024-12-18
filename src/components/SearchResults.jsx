@@ -65,7 +65,7 @@ const SearchResults = () => {
       addToCart(product);
     }
   };
-
+  
   const handleAddToWishlist = (product) => {
     if (!isAuthenticated) {
       alert("Please log in to add items to the wishlist");
@@ -73,7 +73,7 @@ const SearchResults = () => {
     } else {
       addToWishlist(product);
     }
-  };
+  }; 
 
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>{error}</p>;
@@ -97,6 +97,7 @@ const SearchResults = () => {
               className="p-4 rounded-lg bg-gray-50 border border-gray-200 shadow-md text-center"
               onClick={() => setSelectedProduct(item)}
             >
+
               {/* Product Image */}
               <div className="h-50 flex items-center justify-center mb-4">
                 <img
@@ -109,7 +110,7 @@ const SearchResults = () => {
               <h3 className="text-lg font-semibold truncate">{item.name}</h3>
               <p className="text-gray-600">{item.category || "Category"}</p>
               <div className="text-gray-700 font-bold">₹{item.price}</div>
-              <StarRating rating={item.rating || 0} />
+              <StarRating rating={item.rating || 0} />  
               {/* Action Buttons */}
               <div className="flex items-center justify-center mt-4 space-x-4">
                 <button
@@ -123,8 +124,8 @@ const SearchResults = () => {
                   className="text-gray-600 hover:text-red-500 cursor-pointer transition"
                   size={24}
                   onClick={() => addToWishlist(item)}
-                />
-              </div>
+                />  
+              </div> 
             </div>
           ))}
         </div>
@@ -143,9 +144,9 @@ const SearchResults = () => {
     </div> 
   );
 };
-
+  
 export default SearchResults;  
-
+  
 
 
 // import React, { useEffect, useState } from "react";

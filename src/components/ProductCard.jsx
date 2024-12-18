@@ -41,7 +41,7 @@ export const Modal = ({ product, onClose, handleAddToCart, handleAddToWishlist }
           aria-label="Close modal"
         >
           <FaTimes className="h-5 w-5 md:h-6 md:w-6" />
-        </button>
+        </button>  
         <div className="flex flex-col items-center text-center">
           <img
             src={product.image}
@@ -94,7 +94,7 @@ const ProductCard = ({ searchTerm }) => {
         setFilteredProducts(response.data);
       } catch (error) {
         console.error("Error fetching products:", error);
-      }
+      } 
     };
     fetchProducts();
   }, []);
@@ -115,7 +115,7 @@ const ProductCard = ({ searchTerm }) => {
     } else {
       addToCart(product);
     }
-  };
+  };  
 
   const handleAddToWishlist = (product) => {
     if (!isAuthenticated) {
@@ -124,10 +124,10 @@ const ProductCard = ({ searchTerm }) => {
     } else {
       addToWishlist(product);
     }
-  };
+  };  
 
   return (
-    <div className="ProductCard mt-2 md:mt-10">
+    <div className="ProductCard mt-1 md:mt-10">
       <h2 className="text-lg md:text-2xl font-semibold mb-4">Vegetable & Fruits</h2>
       <div className="mb-2 mt-2 flex justify-end">
         <Link to="/products" className="text-blue-500 hover:underline">
